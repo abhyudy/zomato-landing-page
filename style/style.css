@@ -6,7 +6,7 @@
 }
 
 .hero_section {
-  background: url(/backgroupimage.png);
+  background: url(backgroupimage.png);
   background-size: cover;
   background-position: center;
   color: white;
@@ -62,13 +62,13 @@
 }
 
 .hero_section_input_container {
-  background-color: white;
+  background: white;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 60%;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -89,7 +89,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .navbar_menu_container .user_icon {
+  .navbar_menu_container 
+  
+  .user_icon {
     display: flex;
   }
 
